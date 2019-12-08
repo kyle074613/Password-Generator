@@ -45,7 +45,7 @@ function generatePassword() {
     getPasswordPreferences();
 
     //Checks if user set any password character preferences
-    if (!lowerCaseChoice && !upperCaseChoice && !numericChars && !specCharChoice) {
+    if (!lowerCaseChoice && !upperCaseChoice && !numericCharsChoice && !specCharChoice) {
         alert("You must pick at least one character type to generate a password.");
         return
     }
