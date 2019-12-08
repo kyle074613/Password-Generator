@@ -1,18 +1,31 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 h1{
     margin-top: 15px;
     margin-bottom: 75px;
+    font-weight: bold;
 }
 
 h2{
     margin: 10px 0;
+    font-weight: bold;
+}
+
+.content-container{
+    border: lightgray solid 1px;
+    box-shadow: 0px 0px 10px 0px rgb(189, 189, 189);
+    border-radius: 5px;
 }
 
 #password-box{
     margin: 10px 0;
     height: 125px;
     border: lightgray dashed 2px;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 15px 5px;
+    letter-spacing: 2px;
 }
 
 #generate-btn,
