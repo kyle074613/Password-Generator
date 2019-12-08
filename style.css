@@ -1,0 +1,25 @@
+h1{
+    margin-top: 15px;
+    margin-bottom: 75px;
+}
+
+h2{
+    margin: 10px 0;
+}
+
+#password-box{
+    margin: 10px 0;
+    height: 125px;
+    border: lightgray dashed 2px;
+    border-radius: 10px;
+    padding: 15px 5px;
+}
+
+#generate-btn,
+#copy-btn{
+    border-radius: 30px;
+}
+
+#generate-btn{
+    background-color: darkred;
+}
