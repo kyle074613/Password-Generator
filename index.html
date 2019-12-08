@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Password Generator</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <h1>Password Generator</h1>
+        </div>
+
+        <div class="row">
+            <h2>Generate a Password</h2>
+        </div>
+
+        <div class="row">
+            <textarea class="w-100" readonly id="password-box" placeholder="Your Secure Password"></textarea>
+        </div>
+
+        <div class="row">
+            <div class="col-6 justify-content-center">
+                <button type="button" class="btn btn-primary btn-lg" id="generate-btn">Generate Password</button>
+            </div>
+
+            <div class="col-6 justify-content-center">
+                <button type="button" class="btn btn-secondary btn-lg" id="generate-btn">Copy to Clipboard</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
